@@ -1,15 +1,15 @@
 package beecrowd.problem1000;
-
+import java.util.Scanner;
 import java.io.IOException;
 
-/**
- * IMPORTANTE:
- * Ao enviar o código para o beecrowd, **REMOVA** a primeira linha "package beecrowd.problem1000;"
- * O beecrowd não aceita declaração de package para a classe Main.
- */
-public class Main {
+public class Main{
 
-    public static void main(String[] args) throws IOException {
-        System.out.println("Hello World!");
+    public static void main(String[] args) throws IOException{
+        Scanner read = new Scanner(System.in);
+        int a = read.nextInt();
+        int b = read.nextInt();
+        int x = a +b;
+        System.out.println("X = " +x );
+
     }
 }
