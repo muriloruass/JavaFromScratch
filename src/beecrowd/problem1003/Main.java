@@ -1,16 +1,19 @@
-package beecrowd.problem1002;
+package beecrowd.problem1003;
 
 import java.io.IOException;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) throws IOException{
-        double pi = 3.14159;
-        Scanner read = new Scanner(System.in);
-        double radius = read.nextDouble();
-        double area = (pi * (radius * radius));
+        int a,b,sum;
 
-        System.out.printf("A=%.4f%n",area);
+        Scanner read = new Scanner(System.in);
+        a = read.nextInt();
+        b = read.nextInt();
+
+        sum = a + b;
+        System.out.println("SOMA = "+sum);
+
 
     }
 }
